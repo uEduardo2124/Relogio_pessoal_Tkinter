@@ -11,8 +11,8 @@ root.maxsize(600, 320)
 root.minsize(600, 320)
 root.configure(background = '#1d1d1d')
 
-light = PhotoImage(file = 'brightness.png')
-dark = PhotoImage(file = 'dark.png')
+light = PhotoImage(file = 'claro.png')
+dark = PhotoImage(file = 'escuro.png')
 
 def toggle_dark_mode():
     if root['bg'] == '#1d1d1d':
