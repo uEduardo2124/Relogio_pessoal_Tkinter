@@ -5,7 +5,7 @@ import os
 
 
 root = tk.Tk()
-root.title('Relógio Pessoal')
+root.title('Meu Relógio Pessoal')
 root.geometry('600x320')
 root.maxsize(600, 320)
 root.minsize(600, 320)
